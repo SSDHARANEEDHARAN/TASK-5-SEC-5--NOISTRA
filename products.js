@@ -76,8 +76,5 @@ const products = [
         price:220,
         tags:["new","blue","summer"]
     },
-
-
 ]
-
 export {products}

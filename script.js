@@ -17,8 +17,6 @@ document.getElementById("side-navbar-close").addEventListener("click",()=>{
     document.querySelector(".side-navbar").style.marginLeft = "-60%"
 })
 
-
-
 var sliderleftbutton = document.getElementById("slider-left-activate")
 var sliderrightbutton =document.getElementById("slider-right-activate")
 var sliderimage= document.querySelector(".slider-image-container")
@@ -39,9 +37,6 @@ function(){
     else{
         sliderimage.style.marginLeft="-"+slidermargin+"vw";
     }
-    
-   
-
 }
 )
 
@@ -59,16 +54,9 @@ function(){
 
         slidermargin=slidermargin-100
     sliderimage.style.marginLeft="-"+slidermargin+"vw";
-    }
-    
-    
+    } 
 }
 )
-
-
-
-
-
 var likebuttons=document.querySelectorAll(".like-button")
 
 likebuttons.forEach((btn)=>{
